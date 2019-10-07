@@ -1,0 +1,1226 @@
+<div id="app"></div>
+<script id="serverApp-state" type="application/json">{
+    &q;/api/categories/all{\&q;params\&q;:{\&q;lang\&q;:\&q;ru\&q;}}&q;: [
+        {
+            &q;id&q;: 3000,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Концерт&q;,
+            &q;semanticUrl&q;: &q;bilety-na-koncert&q;,
+            &q;shortSemanticUrl&q;: &q;koncert&q;,
+            &q;value&q;: &q;/assets/img/concert.svg&q;
+        },
+        {
+            &q;id&q;: 3009,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Театр&q;,
+            &q;semanticUrl&q;: &q;bilety-v-teatr&q;,
+            &q;shortSemanticUrl&q;: &q;teatr&q;,
+            &q;value&q;: &q;/assets/img/teatr.svgr&q;
+        },
+        {
+            &q;id&q;: 3016,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Шоу&q;,
+            &q;semanticUrl&q;: &q;bilety-na-shou&q;,
+            &q;shortSemanticUrl&q;: &q;shou&q;,
+            &q;value&q;: &q;/assets/img/show.svg&q;
+        },
+        {
+            &q;id&q;: 3022,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Детям&q;,
+            &q;semanticUrl&q;: &q;detskaya-afisha&q;,
+            &q;shortSemanticUrl&q;: &q;detyam&q;,
+            &q;value&q;: &q;/assets/img/child.svg&q;
+        },
+        {
+            &q;id&q;: 3026,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Спорт&q;,
+            &q;semanticUrl&q;: &q;bilety-na-sportivnye-meropriyatiya&q;,
+            &q;shortSemanticUrl&q;: &q;sport&q;,
+            &q;value&q;: &q;/assets/img/sport.svg&q;
+        },
+        {
+            &q;id&q;: 3031,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Другое&q;,
+            &q;semanticUrl&q;: &q;bilety-na-drugoe&q;,
+            &q;shortSemanticUrl&q;: &q;drugie&q;,
+            &q;value&q;: &q;/assets/img/other.svg&q;
+        },
+        {
+            &q;id&q;: 3036,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Фестивали&q;,
+            &q;semanticUrl&q;: &q;bilety-na-festival&q;,
+            &q;shortSemanticUrl&q;: &q;festivali&q;,
+            &q;value&q;: &q;/assets/img/festival.svg&q;
+        },
+        {
+            &q;id&q;: 4002,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Праздники&q;,
+            &q;semanticUrl&q;: &q;bilety-special&q;,
+            &q;shortSemanticUrl&q;: &q;prazdniki&q;,
+            &q;value&q;: &q;/assets/img/vistavki.svg&q;
+        },
+        {
+            &q;id&q;: 4015,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Кино&q;,
+            &q;semanticUrl&q;: &q;bilety-v-kino&q;,
+            &q;shortSemanticUrl&q;: &q;kino&q;,
+            &q;value&q;: &q;/assets/img/cinema.svg&q;
+        },
+        {
+            &q;id&q;: 4038,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Туристам&q;,
+            &q;semanticUrl&q;: &q;bilety-for-tourists&q;,
+            &q;shortSemanticUrl&q;: &q;tourist&q;,
+            &q;value&q;: &q;/assets/img/tourism.svg&q;
+        },
+        {
+            &q;id&q;: 4054,
+            &q;parent&q;: null,
+            &q;name&q;: &q;Распродажа&q;,
+            &q;semanticUrl&q;: &q;sale&q;,
+            &q;shortSemanticUrl&q;: &q;sale&q;,
+            &q;value&q;: &q;&q;
+        },
+        {
+            &q;id&q;: 3001,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Классика&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;klassika&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3002,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Рок&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;rock&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3003,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Поп / Эстрада&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;estrada&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3004,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Джаз&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;dzhaz&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3005,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Народная / Фолк&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;folk&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3006,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Авторская / Шансон / Романсы&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;shanson&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3007,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Рэп / Хип-хоп&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;hip-hop&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3008,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Электронная музыка&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;electro&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3042,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Другое&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;otherkoncert&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4014,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Татарские концерты&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;tatarskie-koncerty&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4035,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Клубы&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kluby&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4050,
+            &q;parent&q;: 3000,
+            &q;name&q;: &q;Национальные мероприятия&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kontsert-national&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3010,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Драма&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;dramaticheskij&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3011,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Комедия&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;komedii&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3012,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Опера&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;opera&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3013,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Балет / Танец&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;balet&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3014,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Мюзикл / Оперетта&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;myuzikl&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3015,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Кукольный театр&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kukolnyj&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3043,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Другое&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;otherteatr&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4008,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Гастроли&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;gastroli&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4051,
+            &q;parent&q;: 3009,
+            &q;name&q;: &q;Национальные мероприятия&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;natsionalnye&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3017,
+            &q;parent&q;: 3016,
+            &q;name&q;: &q;Цирк / Клоунада&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;cirk&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3018,
+            &q;parent&q;: 3016,
+            &q;name&q;: &q;Спортивное шоу&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;sport-show&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3019,
+            &q;parent&q;: 3016,
+            &q;name&q;: &q;Юмор&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;humor&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3020,
+            &q;parent&q;: 3016,
+            &q;name&q;: &q;Танец&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;dance&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3021,
+            &q;parent&q;: 3016,
+            &q;name&q;: &q;Другое&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;othershow&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4053,
+            &q;parent&q;: 3016,
+            &q;name&q;: &q;Национальные мероприятия&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;s_natsionalnye&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3023,
+            &q;parent&q;: 3022,
+            &q;name&q;: &q;Малышам (2-6)&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;for-kids-2-6&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3024,
+            &q;parent&q;: 3022,
+            &q;name&q;: &q;Для младшего и среднего возраста (7-12)&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;midage-7-12&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3025,
+            &q;parent&q;: 3022,
+            &q;name&q;: &q;Для старшего возраста (от 12 лет)&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;high-age-12&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3044,
+            &q;parent&q;: 3022,
+            &q;name&q;: &q;Другое&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;otherdetyam&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4052,
+            &q;parent&q;: 3022,
+            &q;name&q;: &q;Национальные мероприятия&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;d_natsionalnye&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3027,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Футбол&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;soccer&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3028,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Хоккей&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;hokkej&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3029,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Единоборства&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;edinoborstva&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3030,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Баскетбол&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;basketball&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4001,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Другое&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;othersport&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4031,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Волейбол&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;volleyball&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4032,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Автогонки&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;autosport&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4033,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Гандбол&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;handball&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4034,
+            &q;parent&q;: 3026,
+            &q;name&q;: &q;Теннис&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;tennis&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3032,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Экскурсии&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;ekskursii&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3033,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Активный отдых&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;active-rest&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3034,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Семинары и тренинги&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;training&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3035,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Творческий вечер&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;tvorcheskiy-vecher&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3040,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Другое&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;otheranother&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3041,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Выставки и музеи&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;vystavki&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4013,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Кино&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4028,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Теплоходы&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;teplohod&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4036,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;День Театра&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;teater-den&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4037,
+            &q;parent&q;: 3031,
+            &q;name&q;: &q;Собираемся в театр&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;sobiraemsya-teater&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3037,
+            &q;parent&q;: 3036,
+            &q;name&q;: &q;Музыкальные фестивали&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;music-festival&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3038,
+            &q;parent&q;: 3036,
+            &q;name&q;: &q;Театральные фестивали&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;teatralniy-festival&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3039,
+            &q;parent&q;: 3036,
+            &q;name&q;: &q;Фестивали на открытом воздухе&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;openair&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 3045,
+            &q;parent&q;: 3036,
+            &q;name&q;: &q;Другое&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;otherfest&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4027,
+            &q;parent&q;: 3036,
+            &q;name&q;: &q;Фестивальное кино&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;festivalnoe-kino&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4003,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;Новый год&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;new-year&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4004,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;День Защитника Отечества&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;23_fevralya&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4005,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;Международный Женский день&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;8_marta&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4006,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;День Победы&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;den_pobedy&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4007,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;День Святого Валентина&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;StValentine&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4009,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;День знаний&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;den-znanij&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4010,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;Весенние каникулы&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;vesennie-kanikuly&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4011,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;Осенние каникулы&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;osennie-kanikuly&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4012,
+            &q;parent&q;: 4002,
+            &q;name&q;: &q;Зимние каникулы&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;zimnie-kanikuly&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4016,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Комедия&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/comedy&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4017,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Боевик&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/action&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4018,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Фантастика&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/fantastic&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4019,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Анимация&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/animation&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4020,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Арт-хаус&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/arthouse&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4021,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Триллер&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/thriller&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4022,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Драма&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/drama&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4023,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Мелодрама&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/romantic&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4024,
+            &q;parent&q;: 4015,
+            &q;name&q;: &q;Документальное&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;kino/doc&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4039,
+            &q;parent&q;: 4038,
+            &q;name&q;: &q;Карта гостя&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;guestcard&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4040,
+            &q;parent&q;: 4038,
+            &q;name&q;: &q;Парки&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;parki&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4041,
+            &q;parent&q;: 4038,
+            &q;name&q;: &q;Экскурсии&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;t_ekskursii&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4042,
+            &q;parent&q;: 4038,
+            &q;name&q;: &q;Выставки и музеи&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;t_vystavki&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4043,
+            &q;parent&q;: 4038,
+            &q;name&q;: &q;Балеты и опера&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;ballet_opera&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4044,
+            &q;parent&q;: 4038,
+            &q;name&q;: &q;Фолклёрные шоу&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;folklornye-shou&q;,
+            &q;value&q;: null
+        },
+        {
+            &q;id&q;: 4045,
+            &q;parent&q;: 4038,
+            &q;name&q;: &q;Теплоходы&q;,
+            &q;semanticUrl&q;: null,
+            &q;shortSemanticUrl&q;: &q;t_teplohod&q;,
+            &q;value&q;: null
+        }
+    ],
+    &q;/api/v1/site/info{\&q;params\&q;:{}}&q;: {
+        &q;data&q;: {
+            &q;menu&q;: {
+                &q;header&q;: [
+                    {
+                        &q;id&q;: 184,
+                        &q;name&q;: &q;Залы&q;,
+                        &q;url&q;: &q;/venue&q;
+                    },
+                    {
+                        &q;id&q;: 218,
+                        &q;name&q;: &q;Кассы&q;,
+                        &q;url&q;: &q;/biletnye-kassy&q;
+                    },
+                    {
+                        &q;id&q;: 196,
+                        &q;name&q;: &q;Контакты&q;,
+                        &q;url&q;: &q;/pages/kontakt&q;
+                    },
+                    {
+                        &q;id&q;: 193,
+                        &q;name&q;: &q;Новости&q;,
+                        &q;url&q;: &q;/news&q;
+                    }
+                ],
+                &q;leftFooter&q;: [
+                    {
+                        &q;id&q;: 194,
+                        &q;name&q;: &q;Обратная связь&q;,
+                        &q;url&q;: &q;/feedback&q;
+                    },
+                    {
+                        &q;id&q;: 163,
+                        &q;name&q;: &q;О компании&q;,
+                        &q;url&q;: &q;/pages/about&q;
+                    },
+                    {
+                        &q;id&q;: 164,
+                        &q;name&q;: &q;Электронный билет&q;,
+                        &q;url&q;: &q;/pages/elektronnyiy-bilet&q;
+                    },
+                    {
+                        &q;id&q;: 165,
+                        &q;name&q;: &q;Безопасность покупателя&q;,
+                        &q;url&q;: &q;/pages/security&q;
+                    }
+                ],
+                &q;rightFooter&q;: [
+                    {
+                        &q;id&q;: 170,
+                        &q;name&q;: &q;Сотрудничество&q;,
+                        &q;url&q;: &q;/pages/partners&q;
+                    },
+                    {
+                        &q;id&q;: 171,
+                        &q;name&q;: &q;Блоки для афиш&q;,
+                        &q;url&q;: &q;/pages/bloki-dlya-afish&q;
+                    },
+                    {
+                        &q;id&q;: 199,
+                        &q;name&q;: &q;Реклама для организаторов&q;,
+                        &q;url&q;: &q;/pages/reklama-dlya-organizatorov&q;
+                    }
+                ],
+                &q;centralFooter&q;: [
+                    {
+                        &q;id&q;: 166,
+                        &q;name&q;: &q;Публичная оферта&q;,
+                        &q;url&q;: &q;/pages/oferta&q;
+                    },
+                    {
+                        &q;id&q;: 167,
+                        &q;name&q;: &q;Возврат билетов&q;,
+                        &q;url&q;: &q;/pages/refund&q;
+                    },
+                    {
+                        &q;id&q;: 168,
+                        &q;name&q;: &q;Как купить билет&q;,
+                        &q;url&q;: &q;/pages/kak-kupit-bilet&q;
+                    },
+                    {
+                        &q;id&q;: 203,
+                        &q;name&q;: &q;Правила пользования билетом БСО&q;,
+                        &q;url&q;: &q;/pages/bso-pravila&q;
+                    }
+                ],
+                &q;subHeader&q;: [
+                    {
+                        &q;id&q;: 177,
+                        &q;name&q;: &q;Концерт&q;,
+                        &q;url&q;: &q;/bilety-na-koncert&q;
+                    },
+                    {
+                        &q;id&q;: 178,
+                        &q;name&q;: &q;Театр&q;,
+                        &q;url&q;: &q;/bilety-v-teatr&q;
+                    },
+                    {
+                        &q;id&q;: 179,
+                        &q;name&q;: &q;Шоу&q;,
+                        &q;url&q;: &q;/bilety-na-shou&q;
+                    },
+                    {
+                        &q;id&q;: 181,
+                        &q;name&q;: &q;Другое &q;,
+                        &q;url&q;: &q;/bilety-na-drugoe&q;
+                    },
+                    {
+                        &q;id&q;: 183,
+                        &q;name&q;: &q;Спорт&q;,
+                        &q;url&q;: &q;/bilety-na-sportivnye-meropriyatiya&q;
+                    },
+                    {
+                        &q;id&q;: 212,
+                        &q;name&q;: &q;Фестивали&q;,
+                        &q;url&q;: &q;/bilety-na-festival&q;
+                    }
+                ]
+            },
+            &q;mainInfo&q;: {
+                &q;name&q;: &q;Интернет-магазин Кассир.ру Челябинск&q;,
+                &q;languages&q;: [
+                    {
+                        &q;id&q;: 1,
+                        &q;name&q;: &q;Русский&q;,
+                        &q;code&q;: &q;ru&q;,
+                        &q;icon&q;: &q;http://img.dev.kassir.ru/mm/flags/ru.png&q;
+                    },
+                    {
+                        &q;id&q;: 2,
+                        &q;name&q;: &q;English&q;,
+                        &q;code&q;: &q;en&q;,
+                        &q;icon&q;: &q;http://img.dev.kassir.ru/mm/flags/en.png&q;
+                    },
+                    {
+                        &q;id&q;: 3,
+                        &q;name&q;: &q;Ўзбекча&q;,
+                        &q;code&q;: &q;uz&q;,
+                        &q;icon&q;: &q;http://img.dev.kassir.ru/mm/flags/uz.png&q;
+                    }
+                ],
+                &q;phoneNumbers&q;: [
+                    &q;8 (982) 300-50-13&q;
+                ],
+                &q;supportMail&q;: null,
+                &q;socialNetworks&q;: {
+                    &q;twitter&q;: null,
+                    &q;vk&q;: &q;https://vk.com/kassirchel&q;,
+                    &q;ok&q;: &q;https://ok.ru/group/53588115980474&q;,
+                    &q;instagram&q;: &q;https://www.instagram.com/kassirchel&q;,
+                    &q;facebook&q;: &q;https://www.facebook.com/Кассирру-Челябинск-289126698204731&q;,
+                    &q;youtube&q;: null
+                },
+                &q;region&q;: {
+                    &q;id&q;: 35,
+                    &q;name&q;: &q;Челябинск&q;
+                }
+            },
+            &q;socialAccountsIds&q;: {
+                &q;facebook&q;: &q;905096459838486&q;,
+                &q;ok&q;: &q;1280219648&q;,
+                &q;vk&q;: &q;7053982&q;
+            },
+            &q;regionalOffice&q;: {
+                &q;name&q;: &q;КАССИР.РУ Челябинск&q;
+            },
+            &q;snippetSiteCodes&q;: [
+                {
+                    &q;id&q;: 9,
+                    &q;code&q;: &q;&l;meta name=\&q;yandex-verification\&q; content=\&q;6d72e2083732c80c\&q; /&g;&q;,
+                    &q;placeToInsert&q;: &q;HEAD&q;,
+                    &q;type&q;: &q;HTML&q;
+                },
+                {
+                    &q;id&q;: 10,
+                    &q;code&q;: &q;&l;meta name=\&q;google-site-verification\&q; content=\&q;PLGYatRa_nXgGan-ch1XCT3BwRwsExVZartZZGwpO0s\&q; /&g;&q;,
+                    &q;placeToInsert&q;: &q;HEAD&q;,
+                    &q;type&q;: &q;HTML&q;
+                }
+            ]
+        },
+        &q;errors&q;: []
+    },
+    &q;/api/similar-events{\&q;params\&q;:{}}&q;: {
+        &q;data&q;: [
+            {
+                &q;id&q;: 400001409,
+                &q;info&q;: {
+                    &q;name&q;: &q;Презентация первого музыкально-поэтического альбома \&q;Путешествие вглубь себя\&q;. Моноспектакль. Пермь&q;,
+                    &q;poster&q;: {
+                        &q;name&q;: &q;Photo&q;,
+                        &q;source&q;: {
+                            &q;desktop&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;desktopS&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;desktopM&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;mobile&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;
+                        }
+                    },
+                    &q;semanticUrl&q;: &q;/koncert/prezentatsiya-pervogo-muzikalno-poeticheskogo-alboma-puteshestvie-vglub-sebya-monospektakl-perm&q;,
+                    &q;date&q;: {
+                        &q;from&q;: &q;2019-04-13 19:00 +05:00&q;,
+                        &q;to&q;: &q;2019-04-13 21:00 +05:00&q;
+                    },
+                    &q;ageGroup&q;: &q;18+&q;,
+                    &q;description&q;: &q;&q;,
+                    &q;duration&q;: &q;&q;,
+                    &q;category&q;: {
+                        &q;name&q;: &q;Концерт&q;,
+                        &q;ids&q;: []
+                    }
+                },
+                &q;ticketsInfo&q;: {
+                    &q;price&q;: {
+                        &q;from&q;: 1000,
+                        &q;to&q;: 3000
+                    },
+                    &q;discount&q;: 0,
+                    &q;count&q;: 0,
+                    &q;maxTicketsCountToBuy&q;: 0,
+                    &q;eTicketsSale&q;: true,
+                    &q;hasScheme&q;: false
+                },
+                &q;hall&q;: {
+                    &q;name&q;: &q;Дворец Молодежи&q;
+                }
+            },
+            {
+                &q;id&q;: 400001409,
+                &q;info&q;: {
+                    &q;name&q;: &q;Презентация первого музыкально-поэтического альбома \&q;Путешествие вглубь себя\&q;. Моноспектакль. Пермь&q;,
+                    &q;poster&q;: {
+                        &q;name&q;: &q;Photo&q;,
+                        &q;source&q;: {
+                            &q;desktop&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;desktopS&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;desktopM&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;mobile&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;
+                        }
+                    },
+                    &q;semanticUrl&q;: &q;/koncert/prezentatsiya-pervogo-muzikalno-poeticheskogo-alboma-puteshestvie-vglub-sebya-monospektakl-perm&q;,
+                    &q;date&q;: {
+                        &q;from&q;: &q;2019-04-13 19:00 +05:00&q;,
+                        &q;to&q;: &q;2019-04-13 21:00 +05:00&q;
+                    },
+                    &q;ageGroup&q;: &q;18+&q;,
+                    &q;description&q;: &q;&q;,
+                    &q;duration&q;: &q;&q;,
+                    &q;category&q;: {
+                        &q;name&q;: &q;Концерт&q;,
+                        &q;ids&q;: []
+                    }
+                },
+                &q;ticketsInfo&q;: {
+                    &q;price&q;: {
+                        &q;from&q;: 1000,
+                        &q;to&q;: 3000
+                    },
+                    &q;discount&q;: 0,
+                    &q;count&q;: 0,
+                    &q;maxTicketsCountToBuy&q;: 0,
+                    &q;eTicketsSale&q;: true,
+                    &q;hasScheme&q;: false
+                },
+                &q;hall&q;: {
+                    &q;name&q;: &q;Дворец Молодежи&q;
+                }
+            },
+            {
+                &q;id&q;: 400001409,
+                &q;info&q;: {
+                    &q;name&q;: &q;Презентация первого музыкально-поэтического альбома \&q;Путешествие вглубь себя\&q;. Моноспектакль. Пермь&q;,
+                    &q;poster&q;: {
+                        &q;name&q;: &q;Photo&q;,
+                        &q;source&q;: {
+                            &q;desktop&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;desktopS&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;desktopM&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;,
+                            &q;mobile&q;: &q;https://app01next.kassir.ru/img/ts4/300x440_afisha-kassir-80ce511cbefe4b91a95ac5c482d79ded.jpg&q;
+                        }
+                    },
+                    &q;semanticUrl&q;: &q;/koncert/prezentatsiya-pervogo-muzikalno-poeticheskogo-alboma-puteshestvie-vglub-sebya-monospektakl-perm&q;,
+                    &q;date&q;: {
+                        &q;from&q;: &q;2019-04-13 19:00 +05:00&q;,
+                        &q;to&q;: &q;2019-04-13 21:00 +05:00&q;
+                    },
+                    &q;ageGroup&q;: &q;18+&q;,
+                    &q;description&q;: &q;&q;,
+                    &q;duration&q;: &q;&q;,
+                    &q;category&q;: {
+                        &q;name&q;: &q;Концерт&q;,
+                        &q;ids&q;: []
+                    }
+                },
+                &q;ticketsInfo&q;: {
+                    &q;price&q;: {
+                        &q;from&q;: 1000,
+                        &q;to&q;: 3000
+                    },
+                    &q;discount&q;: 0,
+                    &q;count&q;: 0,
+                    &q;maxTicketsCountToBuy&q;: 0,
+                    &q;eTicketsSale&q;: true,
+                    &q;hasScheme&q;: false
+                },
+                &q;hall&q;: {
+                    &q;name&q;: &q;Дворец Молодежи&q;
+                }
+            }
+        ],
+        &q;errors&q;: []
+    },
+    &q;/api/cities{\&q;params\&q;:{\&q;lang\&q;:\&q;ru\&q;}}&q;: [
+        {
+            &q;id&q;: 1,
+            &q;name&q;: &q;Москва&q;,
+            &q;url&q;: &q;https://msk.kassir.ru&q;,
+            &q;hasMetro&q;: true
+        },
+        {
+            &q;id&q;: 2,
+            &q;name&q;: &q;Санкт-Петербург&q;,
+            &q;url&q;: &q;https://spb.kassir.ru&q;,
+            &q;hasMetro&q;: true
+        },
+        {
+            &q;id&q;: 8,
+            &q;name&q;: &q;Волгоград&q;,
+            &q;url&q;: &q;https://vlg.kassir.ru&q;,
+            &q;hasMetro&q;: true
+        },
+        {
+            &q;id&q;: 13,
+            &q;name&q;: &q;Воронеж&q;,
+            &q;url&q;: &q;https://vrn.kassir.ru&q;,
+            &q;hasMetro&q;: false
+        }
+    ],
+    &q;/api/v1/home{\&q;params\&q;:{}}&q;: {
+        &q;data&q;: {
+            &q;slider&q;: [
+                {
+                    &q;id&q;: 400002291,
+                    &q;info&q;: {
+                        &q;name&q;: &q;М: МАЛЕНЬКОЕ ТЕСТОВОЕ ОДНОТИПНОЕ МЕРОПРИЯТИЕ&q;,
+                        &q;period&q;: {
+                            &q;from&q;: &q;2019-10-31T18:50:00+03:00:00&q;,
+                            &q;to&q;: &q;2020-01-06T01:55:00+05:00:00&q;
+                        },
+                        &q;ageGroup&q;: &q;18+&q;,
+                        &q;description&q;: &q;&l;p&g;Описание мероприятия&l;/p&g;&q;,
+                        &q;duration&q;: &q;&q;,
+                        &q;semanticUrl&q;: &q;/koncert/m-malenkoe-testovoe-odnotipnoe-meropriyatie&q;,
+                        &q;breadcrumbs&q;: [
+                            {
+                                &q;id&q;: 3000,
+                                &q;name&q;: &q;Концерт&q;,
+                                &q;semanticUrl&q;: &q;/bilety-na-koncert&q;
+                            }
+                        ]
+                    },
+                    &q;hall&q;: {
+                        &q;id&q;: 274,
+                        &q;name&q;: &q;Государственный Кремлевский Дворец&q;,
+                        &q;img&q;: null,
+                        &q;semanticUrl&q;: null
+                    },
+                    &q;ticketsInfo&q;: {
+                        &q;count&q;: null,
+                        &q;price&q;: {
+                            &q;from&q;: 33,
+                            &q;to&q;: 444
+                        },
+                        &q;discount&q;: {
+                            &q;name&q;: &q;-100%&q;,
+                            &q;description&q;: null
+                        },
+                        &q;maxTicketsInOrder&q;: null,
+                        &q;hasScheme&q;: false,
+                        &q;eticketsSale&q;: null
+                    },
+                    &q;image&q;: {
+                        &q;name&q;: &q;&q;,
+                        &q;source&q;: {
+                            &q;desktopS&q;: &q;https://load01next.kassirdev.ru/img/ts4/940x400_elephants-4438284_1920-70962bd0c2b44923b051de40738c99fc.png&q;,
+                            &q;desktopM&q;: &q;https://load01next.kassirdev.ru/img/ts4/1180x500_elephants-4438284_1920-70962bd0c2b44923b051de40738c99fc.png&q;,
+                            &q;mobile&q;: &q;https://load01next.kassirdev.ru/img/ts4/412x197_elephants-4438284_1920-70962bd0c2b44923b051de40738c99fc.png&q;
+                        }
+                    },
+                    &q;eventGroup&q;: true,
+                    &q;type&q;: &q;MONO&q;
+                }
+            ],
+            &q;popular&q;: {
+                &q;id&q;: 2041,
+                &q;name&q;: &q;01 Популярные (на главной странице Феникса)&q;,
+                &q;events&q;: [
+                    {
+                        &q;id&q;: 400002291,
+                        &q;info&q;: {
+                            &q;name&q;: &q;М: МАЛЕНЬКОЕ ТЕСТОВОЕ ОДНОТИПНОЕ МЕРОПРИЯТИЕ&q;,
+                            &q;period&q;: {
+                                &q;from&q;: &q;2019-10-31T18:50:00+03:00:00&q;,
+                                &q;to&q;: &q;2020-01-06T01:55:00+05:00:00&q;
+                            },
+                            &q;ageGroup&q;: &q;18+&q;,
+                            &q;description&q;: &q;&l;p&g;Описание мероприятия&l;/p&g;&q;,
+                            &q;duration&q;: &q;&q;,
+                            &q;semanticUrl&q;: &q;/koncert/m-malenkoe-testovoe-odnotipnoe-meropriyatie&q;,
+                            &q;breadcrumbs&q;: [
+                                {
+                                    &q;id&q;: 3000,
+                                    &q;name&q;: &q;Концерт&q;,
+                                    &q;semanticUrl&q;: &q;/bilety-na-koncert&q;
+                                }
+                            ]
+                        },
+                        &q;hall&q;: {
+                            &q;id&q;: 274,
+                            &q;name&q;: &q;Государственный Кремлевский Дворец&q;,
+                            &q;img&q;: null,
+                            &q;semanticUrl&q;: null
+                        },
+                        &q;ticketsInfo&q;: {
+                            &q;count&q;: null,
+                            &q;price&q;: {
+                                &q;from&q;: 33,
+                                &q;to&q;: 444
+                            },
+                            &q;discount&q;: {
+                                &q;name&q;: &q;-100%&q;,
+                                &q;description&q;: null
+                            },
+                            &q;maxTicketsInOrder&q;: null,
+                            &q;hasScheme&q;: false,
+                            &q;eticketsSale&q;: null
+                        },
+                        &q;image&q;: {
+                            &q;name&q;: &q;&q;,
+                            &q;source&q;: {
+                                &q;desktopS&q;: &q;https://load01next.kassirdev.ru/img/ts4/220x160_mammal-4451152_1920-0f2023fce369419384d676e9d56f660f.jpg&q;,
+                                &q;desktopM&q;: &q;https://load01next.kassirdev.ru/img/ts4/280x200_mammal-4451152_1920-0f2023fce369419384d676e9d56f660f.jpg&q;,
+                                &q;mobile&q;: &q;https://load01next.kassirdev.ru/img/ts4/162x158_mammal-4451152_1920-0f2023fce369419384d676e9d56f660f.jpg&q;
+                            }
+                        },
+                        &q;eventGroup&q;: true,
+                        &q;type&q;: &q;MONO&q;
+                    }
+                ],
+                &q;semanticUrl&q;: &q;-populyarnie-na-glavnoy-stranitse-feniksa-&q;,
+                &q;img&q;: {
+                    &q;name&q;: &q;&q;,
+                    &q;source&q;: {
+                        &q;desktopS&q;: null,
+                        &q;desktopM&q;: null,
+                        &q;mobile&q;: null
+                    }
+                }
+            },
+            &q;selections&q;: [],
+            &q;nearest&q;: null,
+            &q;banners&q;: [
+                {
+                    &q;id&q;: 20,
+                    &q;name&q;: &q;ICE HOCKEY U18 WORLD CHAMPIONSHIP RUSSIA 2018&q;,
+                    &q;url&q;: &q;https://chelnext.kassir.ru/sport/ice-hockey-u18-world-championship-russia-2018-abonementyi&q;,
+                    &q;img&q;: {
+                        &q;name&q;: &q;&q;,
+                        &q;source&q;: {
+                            &q;desktopS&q;: &q;https://app01next.kassir.ru/img/site/miniBanners/fcb1f79d1b5e9e2fe68ddbe895197fa8-904ca164c74a456cbcfc09c587f24ba1.jpg&q;,
+                            &q;desktopM&q;: &q;https://app01next.kassir.ru/img/site/miniBanners/fcb1f79d1b5e9e2fe68ddbe895197fa8-904ca164c74a456cbcfc09c587f24ba1.jpg&q;,
+                            &q;mobile&q;: &q;https://app01next.kassir.ru/img/site/miniBanners/fcb1f79d1b5e9e2fe68ddbe895197fa8-904ca164c74a456cbcfc09c587f24ba1.jpg&q;
+                        }
+                    }
+                }
+            ],
+            &q;customSelection&q;: null,
+            &q;seoInfo&q;: {
+                &q;id&q;: 7,
+                &q;title&q;: &q;Афиша Челябинска. Билеты на концерты и спектакли&q;,
+                &q;keywords&q;: &q;test keywords&q;,
+                &q;description&q;: &q;test description&q;
+            }
+        },
+        &q;errors&q;: []
+    }
+}</script>
